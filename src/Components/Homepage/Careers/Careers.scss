@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+
+.job-listing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.job-header{
+    text-align: center;
+    font-family: "Play", sans-serif;
+    font-size: 2.5vw;
+    margin-bottom: 2vh;
+}
+
+.job-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.job-card{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.job-card:hover{
+    transform: scale(1.02);
+}
+
+.job-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.company-name {
+    color: #555;
+}
+
+.location,
+.salary,
+.job-type,
+.job-description,
+.date-posted {
+    margin: 10px 0;
+}
+
+.apply-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+
+.send-details-info-heading{
+    margin-top: 10vh;
+    font-size: 1.5vw;
+    font-family: "Play", sans-serif;
+}
+
+// send-details...
+.send-details-section {
+    margin-top: 5vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #989696;
+    border-radius: 5px;
+}
+
+.send-details-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Play", sans-serif;
+    font-size: 2vw;
+}
+
+.send-details-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-details-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 25vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-details-section button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    width: 15vw;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-details-section button:hover{
+    background-color: #0056b3;
+}
+
+.message{
+    color: green;
+}

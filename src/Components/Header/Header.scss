@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+.header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color:  #c6e3f6;
+
+   .company-name-heading{
+        color: black;
+        font-family: "Play", sans-serif;
+        margin-left: 5vw;
+        font-size: 1.5vw;
+   } 
+
+   .header-options{
+        display: flex;
+        gap: 4vw;
+        margin-right: 15vw;
+   }
+
+   .header-options h3{
+        font-size: 1.2rem;
+        color: black;
+        font-family: "Play", sans-serif;
+        margin: 0;
+        cursor: pointer; 
+   }
+
+   .header-options h3:hover{
+    border-bottom: 1px solid #00003b;
+   }
+}
