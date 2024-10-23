@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './Components/Homepage/Homepage';
 import Profile from './Components/Homepage/Profile/Profile';
 import Careers from './Components/Homepage/Careers/Careers';
+import Jobdata from './Components/Apply/Jobdata';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Homepage/>}/>
+          <Route path='/Jobdata/:id' element={<Jobdata/>}/>
         </Routes>
       </BrowserRouter>
     </div>

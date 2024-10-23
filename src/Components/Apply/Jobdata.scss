@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+
+.jobdata-component{
+    width: 100vw;
+    height: 100vh;
+    // background-color: #f4f4f9
+}
+
+.apply-img{
+    position: fixed;
+    width: 40vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 55vw;
+}
+
+.jobdata-container{
+    font-family: "Play", sans-serif;
+    top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    // border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.back-btn-img{
+    cursor: pointer;
+    height: 3.5vh;
+    width: 2vw;
+    top: 1.5vh;
+    left: 1vw;
+    position: absolute;
+    background: transparent;
+}
+
+.job-desc-heading{
+    font-family: "Play", sans-serif;
+    color: #00003b;
+    font-size: 2vw;
+    margin-top: 0;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+}
+
+.job-details p{
+    color: white;
+    font-size: 1.2vw;
+    // margin-bottom: 0;
+}
+
+.job-form-container{
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center; 
+    align-items: center;
+    border: 2px solid #00003b;
+    border-radius: 5px;
+    width: 30vw;
+    height: 55vh;
+    position: relative;
+}
+
+.job-form-container input{
+    padding: 10px;
+    margin-bottom: 2vh;
+    width: 25vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-name-field{
+    padding: 10px;
+    // padding: 3px;
+    font-family: "Play", sans-serif;
+    font-size: 1.1vw;
+    width: 20vw;
+    height: 3vh;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+}
+
+.job-email-field{
+    padding: 10px;
+    font-family: "Play", sans-serif;
+    font-size: 1.1vw;
+    width: 20vw;
+    height: 3vh;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+}
+
+.job-role-field{
+    padding: 10px;
+    font-family: "Play", sans-serif;
+    font-size: 1.1vw;
+    width: 20vw;
+    height: 3vh;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+}
+
+.job-resume-field{
+    background: whitesmoke;
+    padding: 10px;
+    font-family: "Play", sans-serif;
+    font-size: 1.1vw;
+    width: 20vw;
+    height: 3vh;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+    z-index: 1;
+}
+
+.job-submission-btn{
+    position: relative;
+    background-color: #a8caef;
+    color: black;
+    padding: 10px;
+    width: 10vw;
+    margin-top: 5vh;
+    // align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10vw;
+}
+
+.job-submission-btn:hover{
+    background-color: greenyellow;
+}
+
+.job-apply-message{
+    color: white;
+    margin-left: 2vw;
+    margin-bottom: 0;
+}
